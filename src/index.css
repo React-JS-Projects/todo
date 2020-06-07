@@ -1,13 +1,120 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+	sans-serif; */
+	
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#left
+{
+	background-color: #23378B;
+	color: #fff;
+	padding:2%
+}
+
+#middle
+{
+	padding-left:4%;
+	padding-top: 2%;
+	padding-right: 8%;
+	background-color: #fff;
+}
+
+#right
+{
+	padding:2%;
+	background-color: #fff !important;
+	border-left: 5px dashed #f7f7f7;
+}
+
+input[type=text]
+{
+	border-radius: 0px;	
+}
+
+.btn
+{
+	border-radius: 0px;
+	margin-top:2%
+}
+
+.list-group-item
+{	
+	background: transparent;
+	border: 0px !important;
+	border-radius: 0px !important;	
+	padding:1% 1px 0px 1%;
+}
+
+.listItems
+{
+	padding-top:5%;
+	cursor: pointer;
+}
+
+.listItems:hover 
+{
+	font-weight: bold;
+}
+
+#taskCreated
+{
+	background-color: #eee;
+	padding:1%;
+	border-radius: 10px;
+	font-size: 80%;
+}
+
+.taskItemDate
+{
+	font-size: 70%;	
+}
+
+#listName
+{
+	font-size: 350%;
+}
+
+.taskItem
+{
+	font-size: 120%;
+	border-bottom: 1px solid #ddd !important;
+}
+
+.taskItem:hover
+{
+	background-color: #eea;
+	cursor: pointer;
+}
+
+input[type="checkbox"]
+{
+	height: 20px;
+	width: 20px;	
+	cursor: pointer;	
+}
+
+.taskValue
+{
+	text-decoration: line-through;
+}
+
+.listItemSummary
+{
+	float: right;
+	background-color: #f7f7f7;
+	border-radius: 50%;
+	width: 1.5vw;
+	height: 1.5vw;
+	color: #222;
+	text-align: center;
 }
